@@ -1,12 +1,7 @@
 Inspinia - Meteor version 2015
 version: 2.3
 
-Meteor.js is an open-source platform built on Node and MongoDB
-See documentation of Meteor to learn more: http://docs.meteor.com/#/full/
-Install Meteor: https://www.meteor.com/install
-Be sure that you have all setup - create the Meteor project and run the sample application: https://www.meteor.com/try
-
-INSPINIA first run - just cd into Inspinia Meteor project and run the application with:
+http://www.feroliapps.com.br/template-inspinia-documentation/meteor.html
 
 meteor
 
