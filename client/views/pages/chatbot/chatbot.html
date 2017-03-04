@@ -1,0 +1,130 @@
+<template name="chatbot">
+
+    <!-- Page heading -->
+    {{> pageHeading title='ChatBot' }}
+
+    <div class="wrapper wrapper-content animated fadeInRight">
+
+        <div class="row m-t-lg">
+            <div class="col-lg-4">
+                <div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="ibox-content text-center">
+                                <h1>@Bruce</h1>
+                                <div class="m-b-sm">
+                                    <img alt="image" class="img-circle" src="img/a8.jpg">
+                                </div>
+                                <p class="font-bold">Consectetur adipisicing</p>
+
+                                <div class="text-center">
+                                    <a class="btn btn-xs btn-white"><i class="fa fa-thumbs-up"></i> Like </a>
+                                    <a class="btn btn-xs btn-primary"><i class="fa fa-heart"></i> Love</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 q">
+                            <div class="ibox-content">
+                                <div>
+                                    <div>
+                                        <span>Memory</span>
+                                        <small class="pull-right">10/200 GB</small>
+                                    </div>
+                                    <div class="progress progress-small">
+                                        <div style="width: 60%;" class="progress-bar"></div>
+                                    </div>
+
+                                    <div>
+                                        <span>Bandwidth</span>
+                                        <small class="pull-right">20 GB</small>
+                                    </div>
+                                    <div class="progress progress-small">
+                                        <div style="width: 50%;" class="progress-bar"></div>
+                                    </div>
+
+                                    <div>
+                                        <span>Activity</span>
+                                        <small class="pull-right">73%</small>
+                                    </div>
+                                    <div class="progress progress-small">
+                                        <div style="width: 40%;" class="progress-bar"></div>
+                                    </div>
+
+                                    <div>
+                                        <span>FTP</span>
+                                        <small class="pull-right">400 GB</small>
+                                    </div>
+                                    <div class="progress progress-small">
+                                        <div style="width: 20%;" class="progress-bar progress-bar-danger"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-content">
+                        <div>
+                            <div class="chat-discussion">
+                                <div class="chat-message left">
+                                    <img class="message-avatar" src="img/a1.jpg" alt="" >
+                                    <div class="message">
+                                        <a class="message-author" href="#"> Michael Smith </a>
+                                        <span class="message-date"> Mon Jan 26 2015 - 18:39:23 </span>
+                                        <span class="message-content"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, </span>
+                                    </div>
+                                </div>
+                                <div class="chat-message right">
+                                    <img class="message-avatar" src="img/a4.jpg" alt="" >
+                                    <div class="message">
+                                        <a class="message-author" href="#"> Karl Jordan </a>
+                                        <span class="message-date">  Fri Jan 25 2015 - 11:12:36 </span>
+                                        <span class="message-content"> Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover. </span>
+                                    </div>
+                                </div>
+                                <div class="chat-message left">
+                                    <img class="message-avatar" src="img/a2.jpg" alt="" >
+                                    <div class="message">
+                                        <a class="message-author" href="#"> Michael Smith </a>
+                                        <span class="message-date">  Fri Jan 25 2015 - 11:12:36 </span>
+                                        <span class="message-content"> Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover. </span>
+                                    </div>
+                                </div>
+                                <div class="chat-message right">
+                                    <img class="message-avatar" src="img/a5.jpg" alt="" >
+                                    <div class="message">
+                                        <a class="message-author" href="#"> Alice Jordan </a>
+                                        <span class="message-date">  Fri Jan 25 2015 - 11:12:36 </span>
+                                        <span class="message-content"> Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover. </span>
+                                    </div>
+                                </div>
+                                <div class="chat-message left">
+                                    <img class="message-avatar" src="img/a6.jpg" alt="" >
+                                    <div class="message">
+                                        <a class="message-author" href="#"> Mark Smith </a>
+                                        <span class="message-date">  Fri Jan 25 2015 - 11:12:36 </span>
+                                        <span class="message-content"> Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover. </span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="chat-form chatbot">
+                            <form role="form">
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Message"></textarea>
+                                </div>
+                                <div class="text-right">
+                                    <button type="submit" class="btn btn-sm btn-primary m-t-n-xs"><strong>Send message</strong></button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

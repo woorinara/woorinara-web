@@ -1,5 +1,4 @@
 $(window).bind("resize load", function () {
-    console.log('resize load')
     if ($(this).width() < 769) {
         $('body').addClass('body-small')
     } else {
